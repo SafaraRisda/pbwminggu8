@@ -1,0 +1,5 @@
+input[type=text] { 
+    background-color: antiquewhite; 
+    padding: 10px; 
+    border: 1px solid rgb(167, 9, 132); 
+}

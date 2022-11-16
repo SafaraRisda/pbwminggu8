@@ -1,0 +1,15 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 20px;
+    color: blueviolet;
+}
+
+i {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:brown;
+}
+
+h2 {
+    font-family: serif;
+    color: blue;
+}

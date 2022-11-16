@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(241, 228, 201);
+  }
+  /*Selektor dengan ID elemen*/
+  #header {
+    background-color: rgb(196, 44, 150);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(250, 252, 248);
+    border: 3px solid;
+  }
+
+  nav {
+    float: left;
+    width: 25%;
+    background: rgb(214, 182, 208);
+    padding: 35px;
+    margin: 8px 10px 8px 0px;
+    border: 3px white solid;
+  }
+
+  nav ul {
+    border-radius: 30px;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  nav ul li a {
+    border: rgb(167, 16, 109) 1px solid;
+    margin: 2px;
+    background-color: rgb(250, 245, 248);
+    border-radius: 30px;
+    display: block;
+    color: rgb(83, 9, 44);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover{
+    background-color: rgb(156, 89, 126);
+    color: white;
+    font-weight: bold;
+  }
+  
+  main {
+    float: left;
+    padding: 10px;
+    width: 74%;
+    background-color: rgb(238, 218, 227);
+    margin: 8px 0px;
+    border: 3px white solid;
+  }
+
+  article {
+    float: left;
+    padding: 19px;
+    width: 100%;
+    margin: 2px 0px 8px;
+    border: 3px white solid;
+    background-color:rgb(245, 207, 216);
+  }
+
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  aside {
+    border: 3px white dashed;
+    height: 99%;
+    background:rgb(156, 89, 126);
+  }
+
+  footer {
+    background-color: rgb(150, 34, 98);
+    padding: 10px;
+    text-align: center;
+    color: rgb(250, 245, 248);
+    border: 3px solid;
+    margin-top: 8px;
+  }
+  /*Selektor dengan elemen class*/
+  b.a {
+    color: white;
+    background: rgb(92, 9, 9); 
+    padding: 5px;
+    text-decoration-line: underline;
+    text-decoration-color: white;  
+  }
+
+  b.b { 
+    color: darkred;
+  }
+
+  i {
+    color: rgb(255, 35, 35);
+    font-family: ;
+  }
+
+  h3 {
+    color: rgb(148, 5, 83);
+    text-decoration-line: underline;
+    text-decoration-color: rgb(54, 2, 31);  
+    font-family:sans-serif;
+  }
+
+  label {
+      color: black;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(177, 175, 175);
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color:  rgb(172, 42, 113);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+  }
+
+  input[type=submit]:hover {
+    background-color: rgb(138, 6, 68);
+  }
+
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
